@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 
 const RestaurantSchema= new mongoose.Schema({
-    restaurant:{
+    Restaurant:{
         type: String,
         required: false,
         unique:true
     },
-    date:{
+    Date:{
         type: String,
         required:false,
     }
